@@ -1,12 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.whatsappext">
 
-    <!--<permission-->
-        <!--android:protectionLevel="signatureOrSystem"-->
-        <!--android:name="com.example.whatsappext.MYPERMISSION"/>-->
-
     <uses-permission android:name="android.permission.INTERNET"/>
-    <!--<uses-permission android:name="com.example.whatsappext.MYPERMISSION" />-->
 
     <application
         android:allowBackup="true"
@@ -17,8 +12,6 @@
         android:theme="@style/AppTheme"
         >
         <activity android:name=".MainActivity">
-            <!--android:permission="com.example.whatsappext.MYPERMISSION">-->
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
